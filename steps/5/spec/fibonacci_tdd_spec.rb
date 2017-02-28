@@ -24,7 +24,7 @@ describe FibonacciTdd do
         end
 
         it 'should return 3 when called with 4' do
-            expect(@fibonacci.calculate(3)).to eq(2)
+            expect(@fibonacci.calculate(4)).to eq(3)
         end
     end
 end
