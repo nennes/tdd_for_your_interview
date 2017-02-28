@@ -39,4 +39,11 @@ describe FibonacciTdd do
             expect(@fibonacci.calculate(-1)).to eq(0)
         end
     end
+
+    describe '#print' do
+        it 'should print 55 when called with 10' do
+            expect{ @fibonacci.print(10) }.to output("55\n").to_stdout
+        end
+    end
+    
 end
