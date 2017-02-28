@@ -7,7 +7,7 @@ of the Fibonacci series, given n as a parameter.
 This should not make recursive calls. As a bonus, 
 modify the code to keep printing Fibonacci numbers 
 indefinitely. 
-The two first terms for this are 0 and 1.
+The two first terms for this are F0=0 and F1=1.
 ```
 
 ### The list of tests for this is presented below. These are sorted by ascending complexity:
