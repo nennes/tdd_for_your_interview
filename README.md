@@ -19,6 +19,7 @@ The two first terms for this are F0=0 and F1=1.
 1. When given 5, expect 5
 1. When given 10, expect 55
 1. When given -1, raise an ArgumentError (edge case: handle negative input)
+1. When given 10, print 55 (test the printing functionality)
 
 ### File structure
 The minimum amount of code to pass every test will be present under `steps/n`, 
