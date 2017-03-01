@@ -13,7 +13,7 @@ class FibonacciTdd
 
         term_minus_1 = 1
         term_minus_2 = 0
-        term_current = 999
+        term_current = nil
 
         2.upto(term) do
             term_current = term_minus_1 + term_minus_2
