@@ -18,7 +18,7 @@ The two first terms for this are F0=0 and F1=1.
 1. When given 4, expect 3
 1. When given 5, expect 5
 1. When given 10, expect 55
-1. When given -1, expect 0 (edge case: handle negative input)
+1. When given -1, raise an ArgumentError (edge case: handle negative input)
 
 ### File structure
 The minimum amount of code to pass every test will be present under `steps/n`, 

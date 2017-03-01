@@ -35,8 +35,8 @@ describe FibonacciTdd do
             expect(@fibonacci.calculate(10)).to eq(55)
         end
 
-        it 'should return 0 when called with -1' do
-            expect(@fibonacci.calculate(-1)).to eq(0)
+        it 'should raise an exception when called with -1' do
+            expect{ @fibonacci.calculate(-1) }.to raise_error(ArgumentError)
         end
     end
 end
