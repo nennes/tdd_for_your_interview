@@ -1,4 +1,4 @@
-## This repo holds the code for a blog post about using TDD during an interview.
+## This repo holds the code for a [blog post](https://techblog.shutl.com/2017/03/tdd-for-your-technical-interview/) about using TDD during an interview.
 
 The goal is to implement the following specification:
 ```
